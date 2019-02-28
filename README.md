@@ -1,4 +1,4 @@
-# # Hello World Web-App in Go, Containerized Workload and Deployed in K8 (Minikube) cluster
+# Hello World Web-App in Go, Containerized Workload and Deployed in K8 (Minikube) cluster
 
 1. A simple Go HTTP server, responding back with "Hello, World !". 
 2. Dockerfile, push image to DockerHub
