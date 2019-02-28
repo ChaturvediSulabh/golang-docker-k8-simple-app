@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: app
+        app: hello-world
+    spec:
+      containers:
+      - name: hello-world
+        image: chaturvedisulabh/hello-world-in-go
